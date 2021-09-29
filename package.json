@@ -1,0 +1,16 @@
+
+  {
+    "name": "fall21-daplanets",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd fall21-daPlanets.client && npm i",
+      "setup:server": "cd fall21-daPlanets && npm i",
+      "start": "node fall21-daPlanets/index.js"
+    },
+    "engines": {
+      "node": "^14.17.0"
+    }
+  }
+  
